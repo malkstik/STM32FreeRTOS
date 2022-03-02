@@ -17,5 +17,8 @@
 #include "FreeRTOSConfig_Default.h"
 #endif
 
+#define configTICK_RATE_HZ 1000
+#define INCLUDE_vTaskDelayUntil 1
+
 #endif /* _ARDUINO_FREERTOS_CONFIG_H */
 

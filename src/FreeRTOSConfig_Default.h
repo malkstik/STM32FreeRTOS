@@ -154,6 +154,7 @@ This is currently used in ARMv8M ports. */
 #define configMAX_CO_ROUTINE_PRIORITIES  (2)
 
 /* Software timer definitions. */
+#define configTICK_RATE_HZ                1000
 #define configUSE_TIMERS                  1
 #define configTIMER_TASK_PRIORITY        (2)
 #define configTIMER_QUEUE_LENGTH         10
